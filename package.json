@@ -4,7 +4,8 @@
   "description": "Een modulaire Vinted extensie voor Discord bots die automatisch Vinted zoekacties bijhoudt",
   "main": "VintedModule.js",
   "scripts": {
-    "start": "node example-integration.js",
+    "start": "node bot-with-vinted.js",
+    "install-bot": "node install.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": ["discord", "bot", "vinted", "notifications", "tracking", "module", "extension"],
@@ -14,7 +15,8 @@
     "discord.js": "^14.14.1",
     "sqlite3": "^5.1.6",
     "node-cron": "^3.0.3",
-    "puppeteer": "^21.6.1"
+    "puppeteer": "^21.6.1",
+    "dotenv": "^16.3.1"
   },
   "peerDependencies": {
     "discord.js": "^14.0.0"
