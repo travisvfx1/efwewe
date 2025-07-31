@@ -1,0 +1,35 @@
+{
+  "name": "vinted-discord-module",
+  "version": "1.0.0",
+  "description": "Een modulaire Vinted extensie voor Discord bots die automatisch Vinted zoekacties bijhoudt",
+  "main": "VintedModule.js",
+  "scripts": {
+    "start": "node bot-with-vinted.js",
+    "install-bot": "node install.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["discord", "bot", "vinted", "notifications", "tracking", "module", "extension"],
+  "author": "Vinted Discord Module",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite3": "^5.1.6",
+    "node-cron": "^3.0.3",
+    "puppeteer": "^21.6.1",
+    "dotenv": "^16.3.1"
+  },
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jouw-username/vinted-discord-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jouw-username/vinted-discord-module/issues"
+  },
+  "homepage": "https://github.com/jouw-username/vinted-discord-module#readme"
+}
